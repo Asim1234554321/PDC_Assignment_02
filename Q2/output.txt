@@ -1,0 +1,25 @@
+Packet payload: abcba
+  Step 1: stack='a' queue='a' -> MATCH
+  Step 2: stack='b' queue='b' -> MATCH
+  Step 3: stack='c' queue='c' -> MATCH
+  Step 4: stack='b' queue='b' -> MATCH
+  Step 5: stack='a' queue='a' -> MATCH
+Verified log: SYMMETRIC - bi-directional signature verified
+
+Packet payload: X7Y7X
+  Step 1: stack='X' queue='X' -> MATCH
+  Step 2: stack='7' queue='7' -> MATCH
+  Step 3: stack='Y' queue='Y' -> MATCH
+  Step 4: stack='7' queue='7' -> MATCH
+  Step 5: stack='X' queue='X' -> MATCH
+Verified log: SYMMETRIC - bi-directional signature verified
+
+Packet payload: packet
+  Step 1: stack='t' queue='p' -> MISMATCH
+  Step 2: stack='e' queue='a' -> MISMATCH
+  Step 3: stack='k' queue='c' -> MISMATCH
+  Step 4: stack='c' queue='k' -> MISMATCH
+  Step 5: stack='a' queue='e' -> MISMATCH
+  Step 6: stack='p' queue='t' -> MISMATCH
+Verified log: NOT SYMMETRIC - signature check failed
+
