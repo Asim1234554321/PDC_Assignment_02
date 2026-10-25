@@ -1,4 +1,4 @@
-// Main
+// palindrome check using stack and queue
 public class PacketSymmetryAuditor {
 
     static boolean audit(String payload) {
