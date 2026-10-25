@@ -1,1 +1,5 @@
-Question 3: Multithreaded telemetry. This program runs two tasks at the same time using two ways of making threads. LogProcessorTask implements Runnable and prints five log lines, pausing 1000 ms between them. TelemetryThread extends Thread and prints five health updates, pausing 800 ms between them. In AsyncWebEngineApp, the main thread prints its own name (main), then the two workers are named Telemetry-Worker and Log-Worker and started together. Their output is mixed on the screen because they run concurrently. The program also prints each thread’s state and uses join() so that main waits for both to finish.
+Name: Muhammad Asim Saleem
+ID: 247190
+Program: BS Cyber Security
+Course: Parallel & Distributed Computing
+Instructor: Qaiser Ali
