@@ -1,0 +1,17 @@
+Matrix: 2000 x 2000 doubles | Runs: 10
+
+Run 1 | Row-Major: 4.3078 ms | Column-Major: 40.6081 ms
+Run 2 | Row-Major: 4.2357 ms | Column-Major: 41.4047 ms
+Run 3 | Row-Major: 4.1213 ms | Column-Major: 42.3946 ms
+Run 4 | Row-Major: 4.1452 ms | Column-Major: 41.5691 ms
+Run 5 | Row-Major: 4.2086 ms | Column-Major: 41.4944 ms
+Run 6 | Row-Major: 4.1056 ms | Column-Major: 41.4281 ms
+Run 7 | Row-Major: 4.1941 ms | Column-Major: 41.5273 ms
+Run 8 | Row-Major: 4.0587 ms | Column-Major: 41.1688 ms
+Run 9 | Row-Major: 4.4813 ms | Column-Major: 40.9349 ms
+Run 10 | Row-Major: 4.3096 ms | Column-Major: 41.2502 ms
+
+Average Row-Major    : 4.216789999999999 ms
+Average Column-Major : 41.37802 ms
+Speedup (Row-Major over Column-Major): 9.81268215870366x
+(check value: 1.75912E11)
