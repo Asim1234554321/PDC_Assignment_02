@@ -1,3 +1,4 @@
+// Task using the Runnable interface
 public class LogProcessorTask implements Runnable {
     public void run() {
         for (int i = 1; i <= 5; i++) {
