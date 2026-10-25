@@ -8,6 +8,7 @@ public class FIXOrderEvent extends TradeEvent {
         this.clOrdId = clOrdId;
         this.quantity = quantity;
     }
+    	// Child class: buy order with 0.15% exchange fee
 
     public void dispatch() {
         double cost = basePrice * quantity;
