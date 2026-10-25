@@ -1,4 +1,4 @@
-// ParallelMaxSearch class extends SensorSearchEngine class
+// Finds maximum using 4 threads
 public class ParallelMaxSearch extends SensorSearchEngine {
     private int numThreads;
     private double result;
