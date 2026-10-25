@@ -1,3 +1,4 @@
+// runs min and max searches together
 import java.util.Random;
 
 public class SensorGridMonitorApp {
