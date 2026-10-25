@@ -1,3 +1,4 @@
+// Finds minimum using 4 threads
 public class ParallelMinSearch extends SensorSearchEngine {
     private int numThreads;
     private double result;
