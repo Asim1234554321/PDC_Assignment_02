@@ -1,0 +1,7 @@
+Max search finished in 9319 microseconds
+Min search finished in 9269 microseconds
+
+Sensors: 50000 | Worker threads per search: 4
+Critical minimum temperature : 15.000000241254607
+Critical peak vibration      : 9.999734829431983
+Total execution time         : 12304 microseconds
