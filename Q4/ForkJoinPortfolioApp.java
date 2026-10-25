@@ -1,4 +1,4 @@
-//main
+// Driver: compares serial and parallel time
 import java.util.Random;
 import java.util.concurrent.ForkJoinPool;
 
