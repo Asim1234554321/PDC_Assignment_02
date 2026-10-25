@@ -1,3 +1,4 @@
+// Abstract parent for sensor searches
 public abstract class SensorSearchEngine {
     protected double[] sensorData;
     protected int startIdx;
