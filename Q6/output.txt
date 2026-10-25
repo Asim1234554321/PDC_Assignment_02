@@ -1,0 +1,22 @@
+Collections.synchronizedMap(HashMap)
+   Total operations : 500000
+   Execution time   : 147.7788 ms
+   Throughput       : 3383435.242402835 operations/second
+
+ConcurrentHashMap
+   Total operations : 500000
+   Execution time   : 52.6175 ms
+   Throughput       : 9502541.929966267 operations/second
+
+---------- warm-up done, real results below ----------
+
+Collections.synchronizedMap(HashMap)
+   Total operations : 500000
+   Execution time   : 70.0706 ms
+   Throughput       : 7135660.319734668 operations/second
+
+ConcurrentHashMap
+   Total operations : 500000
+   Execution time   : 9.9996 ms
+   Throughput       : 5.00020000800032E7 operations/second
+
