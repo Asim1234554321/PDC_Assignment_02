@@ -1,5 +1,6 @@
 import java.util.concurrent.RecursiveTask;
 
+// RecursiveTask: parallel sum of asset values
 public class ParallelRiskCalculator extends RecursiveTask<Double> {
 
     private static final int THRESHOLD = 1000;
