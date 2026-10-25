@@ -1,0 +1,8 @@
+Assets: 10000 | Risk cap: 800.0 | Assets above cap: 1968
+Total risk before penalty : 4974239.29862425
+Serial total risk after   : 4885712.348870279
+Parallel total risk after : 4885712.3488702625
+
+Serial time   : 0.027894000000000002 ms (average of 200 runs)
+Parallel time : 0.15851749999999998 ms (average of 200 runs)
+Speedup       : 0.17596795306511903x
