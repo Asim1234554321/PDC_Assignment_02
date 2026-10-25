@@ -1,4 +1,4 @@
-// queue
+// Circular array-based queue (FIFO)
 public class RequestQueue {
     private char[] elements;
     private int front;
