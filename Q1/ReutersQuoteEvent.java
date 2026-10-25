@@ -1,4 +1,4 @@
-public class ReutersQuoteEvent extends TradeEvent {
+public class ReutersQuoteEvent extends TradeEvent {         // Child class: bid-ask spread analytics
     private double bidPrice;
     private double askPrice;
 
