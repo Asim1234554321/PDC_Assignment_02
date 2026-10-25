@@ -1,0 +1,12 @@
+=== Dispatching trade events ===
+
+[FIX Order] ClOrdID=ORD-1001 | sender=FIX-GATEWAY-1 | time=1792938312898
+   BUY 200 shares @ 150.25
+   Cost = 30050.00 | Fee (0.15%) = 45.08 | Total = 30095.08
+   Order executed.
+
+[Reuters Quote] sender=REUTERS-FEED | time=1792938312903
+   Bid = 150.2 | Ask = 150.35
+   Spread = 0.1500 | Mid = 150.2750 | Spread% = 0.0998
+
+[Generic Event] sender=SYSTEM | time=1792938312908 | basePrice=150.0
