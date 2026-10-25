@@ -1,4 +1,4 @@
-// Transaction Stack
+// Array-based stack (LIFO)
 public class TransactionStack {
     private char[] elements;
     private int top;
