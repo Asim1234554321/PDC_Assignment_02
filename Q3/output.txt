@@ -1,0 +1,15 @@
+Default JVM thread name: main
+State before start -> Telemetry-Worker: NEW | Log-Worker: NEW
+State after start  -> Telemetry-Worker: RUNNABLE | Log-Worker: RUNNABLE
+[LogProcessorTask] Log metric iteration 1 | Thread: Log-Worker
+Alive -> Telemetry-Worker: true | Log-Worker: true
+[TelemetryThread] Health update 1 | CPU cores: 8 | Memory used: 1 MB | Thread: Telemetry-Worker
+[TelemetryThread] Health update 2 | CPU cores: 8 | Memory used: 1 MB | Thread: Telemetry-Worker
+[LogProcessorTask] Log metric iteration 2 | Thread: Log-Worker
+[TelemetryThread] Health update 3 | CPU cores: 8 | Memory used: 1 MB | Thread: Telemetry-Worker
+[LogProcessorTask] Log metric iteration 3 | Thread: Log-Worker
+[TelemetryThread] Health update 4 | CPU cores: 8 | Memory used: 1 MB | Thread: Telemetry-Worker
+[LogProcessorTask] Log metric iteration 4 | Thread: Log-Worker
+[TelemetryThread] Health update 5 | CPU cores: 8 | Memory used: 1 MB | Thread: Telemetry-Worker
+[LogProcessorTask] Log metric iteration 5 | Thread: Log-Worker
+State at end       -> Telemetry-Worker: TERMINATED | Log-Worker: TERMINATED
