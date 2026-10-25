@@ -1,3 +1,4 @@
+// queue
 public class RequestQueue {
     private char[] elements;
     private int front;

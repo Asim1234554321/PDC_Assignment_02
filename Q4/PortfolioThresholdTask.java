@@ -2,7 +2,7 @@ import java.util.concurrent.RecursiveAction;
 
 public class PortfolioThresholdTask extends RecursiveAction {
 
-    private static final int THRESHOLD = 1000;
+    private static final int THRESHOLD = 1000;      // maximum (will not changed -> final)
 
     private double[] assets;
     private int start;

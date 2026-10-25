@@ -1,3 +1,4 @@
+// Child class extends thread class
 public class TelemetryThread extends Thread {
     public void run() {
         Runtime rt = Runtime.getRuntime();

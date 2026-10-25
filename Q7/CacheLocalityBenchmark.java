@@ -1,6 +1,6 @@
 public class CacheLocalityBenchmark {
 
-    static final int N = 2000;
+    static final int N = 2000;      // matrix is 2000 x 2000
     static double[][] matrix = new double[N][N];
 
     static double traverseRowMajor() {

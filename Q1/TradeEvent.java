@@ -1,3 +1,4 @@
+// Parent Class stores id, time, price
 public class TradeEvent {
     protected String senderId;
     protected long timestamp;

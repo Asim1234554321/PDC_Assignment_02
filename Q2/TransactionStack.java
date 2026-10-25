@@ -1,3 +1,4 @@
+// Transaction Stack
 public class TransactionStack {
     private char[] elements;
     private int top;
