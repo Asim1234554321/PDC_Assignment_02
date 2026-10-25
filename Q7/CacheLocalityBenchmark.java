@@ -1,3 +1,4 @@
+// Benchmark: row-major vs column-major traversal
 public class CacheLocalityBenchmark {
 
     static final int N = 2000;      // matrix is 2000 x 2000
