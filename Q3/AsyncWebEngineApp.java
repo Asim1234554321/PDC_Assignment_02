@@ -1,4 +1,4 @@
-// Main
+// Driver: starts both threads together
 public class AsyncWebEngineApp {
     public static void main(String[] args) {
         System.out.println("Default JVM thread name: " + Thread.currentThread().getName());
